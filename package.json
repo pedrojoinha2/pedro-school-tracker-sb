@@ -1,0 +1,9 @@
+{
+  "name": "pedro-school-tracker",
+  "version":  "1.0.0",
+  "description":  "Sistema de gestão escolar",
+  "main": "index.html",
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
+}  
