@@ -9,7 +9,7 @@ function renderizarDashboard(movimentacoes) {
   cont grid = document.getElementById(´grid-alunos´);
   grid.innerHTML = "";
 
-  movimeentacoes.forEach(m => {
+  movimentacoes.forEach(m => {
     if (m.status === 'em_andamento') {
       const minutos = calcularMinuotsFora(m.data_hora_saida);
       const isCritical = minutos > 10;
